@@ -3,7 +3,7 @@ name: Run Robot Framework Tests
 on:
   schedule:
     # Runs at 12 AM UTC every day
-    - cron: '0 0 * * *'
+    - cron: '*/1 * * * *'
 
   workflow_dispatch:
     # Allows manual triggering of the workflow
